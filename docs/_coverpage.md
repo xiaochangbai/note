@@ -11,4 +11,4 @@
 [Get Started](pages/)
 
 
-![](_media/bg.png)
+![](_media/bg.jpg)
