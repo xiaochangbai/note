@@ -1,13 +1,14 @@
 ![logo](_media/identicon.png)
 
-# docsify <small>3.5</small>
+# Note <small>3.5</small>
 
-> Microservice mall project。
+> XiaoChangBai
 
-- gulimall（谷粒商城） 项目是一套电商项目
-- 基于 SpringCloud + SpringCloudAlibaba + MyBatis-Plus实现，采用 Docker 容器化部署。
+- 2021-12-14
+- 
 
-[GitHub](https://github.com/xiaochangbai/gulimall/)
+[GitHub](https://github.com/xiaochangbai)
 [Get Started](pages/)
 
-![color](#ffffff)
+
+![](_media/bg.png)
