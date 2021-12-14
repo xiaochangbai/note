@@ -11,7 +11,7 @@
   <link rel="mask-icon" href="https://github.githubassets.com/pinned-octocat.svg" color="#000000">
   <link rel="alternate icon" class="js-site-favicon" type="image/png" href="https://github.githubassets.com/favicons/favicon.png">
   <link rel="icon" class="js-site-favicon" type="image/svg+xml" href="https://github.githubassets.com/favicons/favicon.svg">
-
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css" />
 </head>
 <body>
   <div id="app">loading</div>
@@ -64,7 +64,40 @@
         fontsize:'0.9em',
         color:'rgb(90,90,90)',
         language:'chinese'
-      }
+      },
+      copyCode: {                 //点击复制到剪贴板
+            buttonText: {
+                '/zh-cn/': '点击复制',
+                '/ru/'   : 'Скопировать в буфер обмена',
+                '/de-de/': 'Klicken Sie zum Kopieren',
+                '/es/'   : 'Haga clic para copiar',
+                '/'      : 'Copy to clipboard'
+            },
+            errorText: {
+                '/zh-cn/': '错误',
+                '/ru/'   : 'ошибка',
+                '/'      : 'Error'
+            },
+            successText: {
+                '/zh-cn/': '复制',
+                '/ru/'   : 'Скопировано',
+                '/de-de/': 'Kopiert',
+                '/es/'   : 'Copiado',
+                '/'      : 'Copied'
+            }
+        },
+        footer: {
+            copy: '<span>Copyright © 2021 </span>',
+            auth: 'XIAO CHANG BAI',
+            pre: '<hr/>',
+            style: 'text-align: center;',
+            class: 'className',
+        },
+        progress: {           //进度条
+            position: "bottom",
+            color: "var(--theme-color,#42b983)",
+            height: "4px",
+        }
     }
   </script>
   <!-- Docsify v4 -->
@@ -73,5 +106,20 @@
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/ga.min.js"></script>
 
   <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
+
+
+  <!--点击复制剪贴板-->
+<script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+<!--图片缩放-->
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+<!--页脚-->
+<script src="//unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
+<!--阅读进度条-->
+<script src="https://cdn.jsdelivr.net/npm/docsify-progress@latest/dist/progress.min.js"></script>
+
+<!-- 访问量统计 http://ibruce.info/2015/04/04/busuanzi/-->
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+<script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
 </body>
 </html>
