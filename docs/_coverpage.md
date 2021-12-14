@@ -8,7 +8,7 @@
 - 
 
 [GitHub](https://github.com/xiaochangbai)
-[Get Started](pages/guide)
+[Get Started](pages/)
 
 
 ![color](#ffffff)
