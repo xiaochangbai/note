@@ -1,6 +1,6 @@
 ![logo](_media/identicon.png)
 
-# Note <small>3.5</small>
+# Note <small>1.2</small>
 
 > XiaoChangBai
 
@@ -8,7 +8,7 @@
 - 
 
 [GitHub](https://github.com/xiaochangbai)
-[Get Started](pages/)
+[Get Started](pages/guide)
 
 
-![](_media/bg.jpg)
+![color](#ffffff)
