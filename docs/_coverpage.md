@@ -1,17 +1,14 @@
-![logo](_media/identicon.png)
+<div class="cover-main"><img width="180px" src="icon/identicon.png">
 
-# Note <small>1.2</small>
-
-> XiaoChangBai
-
-- 2021-12-14
-- 
+<h1 id="toBeTopJavaer">
+<a><span>To Be Top Javaer  -  Java工程师成神之路</span></a></h1>
 
 
 
-[GitHub](https://github.com/xiaochangbai)
-[Get Started](pages/)
 
+
+
+<a href="#/menu">开始阅读</a></p></div><div class="mask"></div></section>
 
 
 ![color](#ffffff)

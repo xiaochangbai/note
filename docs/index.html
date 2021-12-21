@@ -1,90 +1,56 @@
 <!DOCTYPE html>
-<html lang="zh-cn">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Home</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="Description">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+    <meta charset="UTF-8">
+    <title>Java工程师成神之路</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="Description">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
 
-  <link rel="mask-icon" href="https://github.githubassets.com/pinned-octocat.svg" color="#000000">
-  <link rel="alternate icon" class="js-site-favicon" type="image/png" href="https://github.githubassets.com/favicons/favicon.png">
-  <link rel="icon" class="js-site-favicon" type="image/svg+xml" href="https://github.githubassets.com/favicons/favicon.svg">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css" />
 </head>
 <body>
-  <div id="app">loading</div>
-  <script>
+<div id="app"></div>
+
+<style type="text/css">
+
+    .sidebar p.active{
+        border-right: 2px solid;
+        color: var(--theme-color,#42b983);
+        font-weight: 600;
+    }
+
+</style>
+<script>
     window.$docsify = {
-      name: '',
-      repo: '',
-      loadSidebar: true,
-      loadNavbar: true,
-      coverpage: true,
-      subMaxLevel: 1,
-      
-      search: {
-        maxAge: 86400000, // 过期时间，单位毫秒，默认一天
-        paths: 'auto', // or 'auto'
-        placeholder: 'Type to search',
-
-        // 支持本地化
-        placeholder: {
-          '/': '搜索',
-          '/': 'Type to search'
+        name: 'Note',
+        repo: 'https://github.com/xiaochangbai/note',
+          loadSidebar: true,
+        subMaxLevel: 3,
+        autoHeader: true,
+        search: {
+            paths: 'auto',
+            placeholder: '🔍 搜索 ',
+            noData: '哎呀，没有找到呀！ ',
+            // Headline depth, 1 - 6
+            depth: 3
         },
-        noData: 'No Results!',
-        // 支持本地化
-        noData: {
-          '/': '找不到结果',
-          '/': 'No Results'
+        copyCode: {
+            buttonText : '复制',
+            errorText  : 'Error',
+            successText: 'OK!'
         },
-        // 搜索标题的最大层级, 1 - 6
-        depth: 2,
-        hideOtherSidebarContent: false, // 是否隐藏其他侧边栏内容
-        // 避免搜索索引冲突
-        // 同一域下的多个网站之间
-        namespace: 'website-1',
-        // 使用不同的索引作为路径前缀（namespaces）
-        // 注意：仅适用于 paths: 'auto' 模式
-        //
-        // 初始化索引时，我们从侧边栏查找第一个路径
-        // 如果它与列表中的前缀匹配，我们将切换到相应的索引
-        pathNamespaces: ['/zh-cn', '/ru-ru', '/ru-ru/v1'],
-
-        // 您可以提供一个正则表达式来匹配前缀。在这种情况下，
-        // 匹配到的字符串将被用来识别索引
-        pathNamespaces: /^(\/(zh-cn|ru-ru))?(\/(v1|v2))?/
-      },
-
-      //字数统计
-      count:{
-        countable:true,
-        fontsize:'0.9em',
-        color:'rgb(90,90,90)',
-        language:'chinese'
-      },
-      copyCode: {                 //点击复制到剪贴板
-            buttonText: {
-                '/zh-cn/': '点击复制',
-                '/ru/'   : 'Скопировать в буфер обмена',
-                '/de-de/': 'Klicken Sie zum Kopieren',
-                '/es/'   : 'Haga clic para copiar',
-                '/'      : 'Copy to clipboard'
-            },
-            errorText: {
-                '/zh-cn/': '错误',
-                '/ru/'   : 'ошибка',
-                '/'      : 'Error'
-            },
-            successText: {
-                '/zh-cn/': '复制',
-                '/ru/'   : 'Скопировано',
-                '/de-de/': 'Kopiert',
-                '/es/'   : 'Copiado',
-                '/'      : 'Copied'
-            }
+        pagination: {
+            previousText: '上一章',
+            nextText: '下一章',
+        },
+        coverpage: true,
+        //字数统计
+        count:{
+            countable:true,
+            fontsize:'0.9em',
+            color:'rgb(90,90,90)',
+            language:'chinese'
         },
         footer: {
             copy: '<span>Copyright © 2021 </span>',
@@ -99,27 +65,21 @@
             height: "4px",
         }
     }
-  </script>
-  <!-- Docsify v4 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js" data-ga="UA-XXXXX-Y"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/ga.min.js"></script>
+</script>
+<script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+<!--代码块复制插件-->
+<script src="//unpkg.com/docsify-copy-code"></script>
+<!-- 图片缩放插件 -->
+<script src="https://cyc-1256109796.cos.ap-guangzhou.myqcloud.com/zoom-image.min.js"></script>
+<!--搜索插件-->
+<script src="https://cdn.bootcss.com/docsify/4.5.9/plugins/search.min.js"></script>
+<!--语法高亮插件-->
+<script src="//unpkg.com/prismjs/components/prism-java.min.js"></script>
 
-  <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
-
-
-  <!--点击复制剪贴板-->
-<script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
-<!--图片缩放-->
-<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
-<!--页脚-->
-<script src="//unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
-<!--阅读进度条-->
-<script src="https://cdn.jsdelivr.net/npm/docsify-progress@latest/dist/progress.min.js"></script>
-
-<!-- 访问量统计 http://ibruce.info/2015/04/04/busuanzi/-->
-<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-
-<script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+<script src="//unpkg.com/prismjs/components/prism-bash.min.js"></script>
+<!--分页插件-->
+<script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+<!--统计访问量插件-->
+<!--<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>-->
 </body>
 </html>
