@@ -1,7 +1,7 @@
 <div class="cover-main"><img width="180px" src="icon/identicon.png">
 
 <h1 id="toBeTopJavaer">
-<a><span>To Be Top Javaer  -  Java工程师成神之路</span></a></h1>
+<a><span>Java从入门到成神</span></a></h1>
 
 
 
