@@ -1,27 +1,15 @@
-## To Be Top Javaer  -  Java工程师成神之路
+## Java从入门到成神
 
-![](https://img.shields.io/badge/version-v2.0.0-green.svg) ![](https://img.shields.io/badge/author-Hollis-yellow.svg) ![](https://img.shields.io/badge/license-GPL-blue.svg)
-
-
-| 主要版本 | 更新时间       | 备注             |
-| ---- | ---------- | -------------- |
-| v3.0 | 2020-03-31 | 知识体系完善，在v2.0的基础上，新增20%左右的知识点<br>调整部分知识的顺序及结构，方便阅读和理解<br>通过GitHub Page搭建，便于阅读|
-| v2.0 | 2019-02-19 | 结构调整，更适合从入门到精通；<br>进一步完善知识体系； <br>新技术补充；|
-| v1.1 | 2018-03-12 | 增加新技术知识、完善知识体系 |
-| v1.0 | 2015-08-01 | 首次发布           |
+#### 内容涵盖Java技术体系中全部内容：Java基础、高并发、分布式、高可用、微服务、海量数据处理等
 
 
 目前正在更新中... 
 
 欢迎大家参与共建~
 
-### 联系我们
+### 在线阅读地址
 
-
-
-### 关于作者
-
-
+GitHub Pages 完整阅读：[进入](https://xiaochangbai.github.io/note)
 
 ### 开源协议
 
@@ -40,9 +28,6 @@
 
 如果本项目中的内容侵犯了您的任何权益，欢迎通过邮箱(hollischuang@gmail)与我联系
 
-### 在线阅读地址
-
-GitHub Pages 完整阅读：[进入](https://xiaochangbai.github.io/note)
 
 
 ### <a href="#/menu?id=目录">开始阅读</a></p></div><div class="mask"></div></section>
